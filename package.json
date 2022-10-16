@@ -1,0 +1,19 @@
+{
+  "name": "yale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/importManufacturingData.js",
+  "scripts": {
+    "test": "jest ./_tests_/"
+  },
+  "author": "Jon González Lavín",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "migrate-mongo": "^9.0.0",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
